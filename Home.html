@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dracaena</title>
+    
+    <!-- Bootstrap css file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Main css file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FontAwesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+
+    <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container d-flex">
+                <a class="navbar-brand text-success" href="Home.html"> <i class="fa-solid fa-seedling"></i> Dracaena</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-success"><i class="fa-solid fa-bars text-success lead"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-2">
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle link-success" data-bs-toggle="dropdown" href="" role="button" aria-expanded="false">Products</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#summer">Summer</a></li>
+                              <li><a class="dropdown-item" href="#winter">Winter</a></li>
+                              <li><a class="dropdown-item" href="#spring">Spring</a></li>
+                              <li><a class="dropdown-item" href="#autumn">Autumn</a></li>
+                            </ul>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-success" href="Sign In.html">Sign In</a>
+                            
+                        </li>
+                        
+                    </ul>
+
+                    <div class="d-flex ms-auto ">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success px-4" type="submit">Search</button>
+                            
+                        </form>
+                        
+                    </div>
+                    <div class="btns ms-lg-5 d-flex mt-sm-2 mt-lg-0">
+                        <a class="btn btn-outline-success  m-1" href="Ordered.html">Ordered</a>
+                        <a class="link-success btn fs-5" href="Cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+
+                
+               
+            </div>
+        </nav>
+    <!-- /Navbar -->
+
+    <!-- Header -->
+        <header class="py-5 vh-100 d-flex justify-content-center " id="home">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="header-texts w-75  col-md-12">
+                    <h1 class="text-dark display-3 mb-4">Let's Make Your <span class="text-success">Environmet</span> Green!</h1>
+                    <p class="text-dark lead mb-4">
+                        The plants are the beauty of our earth. <br>
+                        They are very important for the planet and for all living things.
+                    </p>
+                    <a class="btn btn-success me-2 px-4" href="#prouducts">Shop Now</a>
+                    <a class="btn btn-outline-success" href="Cart.html">Cart</a>
+                </div>
+                <div class="header-image w-25 col-md-12">
+                    <img class="w-100" src="images/12.png" alt="">
+                </div>
+            </div>
+        </header>
+
+    <!-- /Header -->
+
+    <!-- Products -->
+    <!--  Summer Products -->
+        <article class="py-3">
+            <h2 class="text-center display-3 mb-5" id="prouducts">Our Products</h2>
+            <h2 class="text-center display-5 mb-5 py-3 text-warning" id="summer">Summer</h2>
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                      <div class="card text-center h-100">
+                          <div class="card-body d-flex flex-column justify-content-around">
+                            <img src="images/1.png" class="card-img-top mx-auto w-75" alt="...">
+                            <div class="card-texts">
+                                <h4 class="card-title fs-3">Green Plant</h4>
+                                <p class="card-text lead">24.00$</p>
+                            </div>
+                            <p class="rating text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <div class="card-btns d-flex justify-content-evenly">
+                                <a href="#" class="btn btn-outline-success">View Details</a>
+                                <a href="#" class="btn btn-success">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card text-center h-100">
+                          <div class="card-body d-flex flex-column justify-content-around">
+                            <img src="images/2.png" class="card-img-top mx-auto w-75" alt="...">
+                            <div class="card-texts">
+                                <h4 class="card-title fs-3">Special Plant</h4>
+                                <p class="card-text lead">34.00$</p>
+                            </div>
+                            <p class="rating text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <div class="card-btns d-flex justify-content-evenly">
+                                <a href="#" class="btn btn-outline-success">View Details</a>
+                                <a href="#" class="btn btn-success">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card text-center h-100">
+                          <div class="card-body d-flex flex-column justify-content-around">
+                            <img src="images/3.png" class="card-img-top mx-auto w-75" alt="...">
+                            <div class="card-texts">
+                                <h4 class="card-title fs-3">Our Plant</h4>
+                                <p class="card-text lead">24.00$</p>
+                            </div>
+                            <p class="rating text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                            <div class="card-btns d-flex justify-content-evenly">
+                                <a href="#" class="btn btn-outline-success">View Details</a>
+                                <a href="#" class="btn btn-success">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card text-center h-100">
+                          <div class="card-body d-flex flex-column justify-content-around">
+                            <img src="images/4.png" class="card-img-top mx-auto w-75" alt="...">
+                            <div class="card-texts">
+                                <h4 class="card-title fs-3">Special Plant</h4>
+                                <p class="card-text lead">34.00$</p>
+                            </div>
+                            <p class="rating text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                            <div class="card-btns d-flex justify-content-evenly">
+                                <a href="#" class="btn btn-outline-success">View Details</a>
+                                <a href="#" class="btn btn-success">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </article>
+        <!--  /Summer Products -->
+
+        <!--  Winter Products -->
+        <article class="py-3">
+            <h2 class="text-center display-5 mb-5 py-3 text-primary" id="winter">Winter</h2>
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                      <div class="card text-center h-100">
+                          <div class="card-body d-flex flex-column justify-content-around">
+                            <img src="images/5.png" class="card-img-top mx-auto w-75" alt="...">
+                            <div class="card-texts">
+                                <h4 class="card-title fs-3">Green Plant</h4>
+                                <p class="card-text lead">34.00$</p>
+                            </div>
+                            <p class="rating text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <div class="card-btns d-flex justify-content-evenly">
+                                <a href="#" class="btn btn-outline-success">View Details</a>
+                                <a href="#" class="btn btn-success">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card text-center h-100">
+                          <div class="card-body d-flex flex-column justify-content-around">
+                            <img src="images/6.png" class="card-img-top mx-auto w-75" alt="...">
+                            <div class="card-texts">
+                                <h4 class="card-title fs-3">Special Plant</h4>
+                                <p class="card-text lead">14.00$</p>
+                            </div>
+                            <p class="rating text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <div class="card-btns d-flex justify-content-evenly">
+                                <a href="#" class="btn btn-outline-success">View Details</a>
+                                <a href="#" class="btn btn-success">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card text-center h-100">
+                          <div class="card-body d-flex flex-column justify-content-around">
+                            <img src="images/7.png" class="card-img-top mx-auto w-75" alt="...">
+                            <div class="card-texts">
+                                <h4 class="card-title fs-3"> Our Special Plant</h4>
+                                <p class="card-text lead">34.00$</p>
+                            </div>
+                            <p class="rating text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                            <div class="card-btns d-flex justify-content-evenly">
+                                <a href="#" class="btn btn-outline-success">View Details</a>
+                                <a href="#" class="btn btn-success">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card text-center h-100">
+                          <div class="card-body d-flex flex-column justify-content-around">
+                            <img src="images/8.png" class="card-img-top mx-auto w-75" alt="...">
+                            <div class="card-texts">
+                                <h4 class="card-title fs-3">Plant</h4>
+                                <p class="card-text lead">26.00$</p>
+                            </div>
+                            <p class="rating text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                            <div class="card-btns d-flex justify-content-evenly">
+                                <a href="#" class="btn btn-outline-success">View Details</a>
+                                <a href="#" class="btn btn-success">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </article>
+
+        <!-- /Winter Products -->
+
+        <!--  Spring Products -->
+        <article class="py-3">
+            <h2 class="text-center display-5 mb-5 py-3 text-success" id="spring">Spring</h2>
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                      <div class="card text-center h-100">
+                          <div class="card-body d-flex flex-column justify-content-around">
+                            <img src="images/9.png" class="card-img-top mx-auto w-75" alt="...">
+                            <div class="card-texts">
+                                <h4 class="card-title fs-3">Beautiful Plant</h4>
+                                <p class="card-text lead">44.00$</p>
+                            </div>
+                            <p class="rating text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <div class="card-btns d-flex justify-content-evenly">
+                                <a href="#" class="btn btn-outline-success">View Details</a>
+                                <a href="#" class="btn btn-success">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card text-center h-100">
+                          <div class="card-body d-flex flex-column justify-content-around">
+                            <img src="images/2.png" class="card-img-top mx-auto w-75" alt="...">
+                            <div class="card-texts">
+                                <h4 class="card-title fs-3">Special Plant</h4>
+                                <p class="card-text lead">34.00$</p>
+                            </div>
+                            <p class="rating text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <div class="card-btns d-flex justify-content-evenly">
+                                <a href="#" class="btn btn-outline-success">View Details</a>
+                                <a href="#" class="btn btn-success">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card text-center h-100">
+                          <div class="card-body d-flex flex-column justify-content-around">
+                            <img src="images/10.png" class="card-img-top mx-auto w-75" alt="...">
+                            <div class="card-texts">
+                                <h4 class="card-title fs-3">Our Plant</h4>
+                                <p class="card-text lead">14.00$</p>
+                            </div>
+                            <p class="rating text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                            <div class="card-btns d-flex justify-content-evenly">
+                                <a href="#" class="btn btn-outline-success">View Details</a>
+                                <a href="#" class="btn btn-success">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card text-center h-100">
+                          <div class="card-body d-flex flex-column justify-content-around">
+                            <img src="images/4.png" class="card-img-top mx-auto w-75" alt="...">
+                            <div class="card-texts">
+                                <h4 class="card-title fs-3"> Plant</h4>
+                                <p class="card-text lead">34.00$</p>
+                            </div>
+                            <p class="rating text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                            <div class="card-btns d-flex justify-content-evenly">
+                                <a href="#" class="btn btn-outline-success">View Details</a>
+                                <a href="#" class="btn btn-success">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </article>
+    <!--  /Spring Products -->
+
+    <!--  Autumn Products -->
+        <article class="py-3">
+            <h2 class="text-center display-5 mb-5 py-3 text-secondary" id="autumn">Autumn</h2>
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                    <div class="col">
+                      <div class="card text-center h-100">
+                          <div class="card-body d-flex flex-column justify-content-around">
+                            <img src="images/1.png" class="card-img-top mx-auto w-75" alt="...">
+                            <div class="card-texts">
+                                <h4 class="card-title fs-3">Green Plant</h4>
+                                <p class="card-text lead">29.00$</p>
+                            </div>
+                            <p class="rating text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <div class="card-btns d-flex justify-content-evenly">
+                                <a href="#" class="btn btn-outline-success">View Details</a>
+                                <a href="#" class="btn btn-success">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card text-center h-100">
+                          <div class="card-body d-flex flex-column justify-content-around">
+                            <img src="images/11.png" class="card-img-top mx-auto w-75" alt="...">
+                            <div class="card-texts">
+                                <h4 class="card-title fs-3">Special Plant</h4>
+                                <p class="card-text lead">34.00$</p>
+                            </div>
+                            <p class="rating text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </p>
+                            <div class="card-btns d-flex justify-content-evenly">
+                                <a href="#" class="btn btn-outline-success">View Details</a>
+                                <a href="#" class="btn btn-success">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card text-center h-100">
+                          <div class="card-body d-flex flex-column justify-content-around">
+                            <img src="images/12.png" class="card-img-top mx-auto w-75" alt="...">
+                            <div class="card-texts">
+                                <h4 class="card-title fs-3">Special Plant</h4>
+                                <p class="card-text lead">24.00$</p>
+                            </div>
+                            <p class="rating text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                            <div class="card-btns d-flex justify-content-evenly">
+                                <a href="#" class="btn btn-outline-success">View Details</a>
+                                <a href="#" class="btn btn-success">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card text-center h-100">
+                          <div class="card-body d-flex flex-column justify-content-around">
+                            <img src="images/4.png" class="card-img-top mx-auto w-75" alt="...">
+                            <div class="card-texts">
+                                <h4 class="card-title fs-3"> Plant</h4>
+                                <p class="card-text lead">37.00$</p>
+                            </div>
+                            <p class="rating text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </p>
+                            <div class="card-btns d-flex justify-content-evenly">
+                                <a href="#" class="btn btn-outline-success">View Details</a>
+                                <a href="#" class="btn btn-success">Add to Cart</a>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </article>
+    <!--  Autumn Products -->
+    <!-- /Products -->
+
+    <!-- footer -->
+    <footer class="my-5">
+        <p class="container text-muted text-start fs-6">Copyright © 2022 by omarcamirr@gmail.com</p>
+        <div class="container border-top border-1 border-secondary d-flex align-items-center justify-content-between">
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link link-secondary" aria-current="page" href="Home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-secondary" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-secondary" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-secondary" href="#">Privacy policy</a>
+                </li>
+              </ul>
+            <div class="social">
+                <a href="#" class="link-secondary px-2"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="link-secondary px-2"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="link-secondary px-2"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
+
+
+
+
+
+
+
+
+    
+
+    <!-- Bootstrap JS file -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Main JS file -->
+    <script src="main.js"></script>
+</body>
+</html>

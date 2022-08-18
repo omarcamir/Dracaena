@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dracaena</title>
+    
+    <!-- Bootstrap css file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Main css file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FontAwesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+
+    <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container d-flex">
+                <a class="navbar-brand text-success" href="Home.html"> <i class="fa-solid fa-seedling"></i> Dracaena</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon text-success"><i class="fa-solid fa-bars text-success lead"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-2">
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary active" aria-current="page" href="Home.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle link-success" data-bs-toggle="dropdown" href="" role="button" aria-expanded="false">Products</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#summer">Summer</a></li>
+                              <li><a class="dropdown-item" href="#winter">Winter</a></li>
+                              <li><a class="dropdown-item" href="#spring">Spring</a></li>
+                              <li><a class="dropdown-item" href="#autumn">Autumn</a></li>
+                            </ul>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-success" href="Sign In.html">Sign In</a>
+                            
+                        </li>
+                        
+                    </ul>
+                    <div class="d-flex ms-auto ">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success px-4" type="submit">Search</button>
+                            
+                        </form>
+                        
+                    </div>
+                    <div class="btns ms-lg-5 d-flex mt-sm-2 mt-lg-0">
+                        <a class="btn btn-outline-success  m-1" href="Ordered.html">Ordered</a>
+                        <a class="link-success btn fs-5" href="Cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+
+                
+               
+            </div>
+        </nav>
+    <!-- /Navbar -->
+
+    <!-- Cart -->
+    <article class="my-5 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="d-flex justify-content-center col-12">
+            <h3 class="mb-5 display-5">Orders</h3>
+          </div>
+          <section class="orders d-flex justify-content-center">
+            <div class="border border-1 border-success col-lg-6 col-sm-12">
+              <section class="p-4">
+                <div class="d-flex align-items-center">
+                  <img src="images/2.png" class="w-25">
+                  <div class="item-texts ms-auto">
+                    <h3>Special Plant</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                    <a class="btn btn-outline-danger" href="#">Cancel</a>
+                  </div>
+                  <div class="col-2 quantity ms-auto">
+                    <p class=" text-center">Quantity:</p>
+                    <p class="lead border border-1 border-secondary text-center ">5</p>
+                  </div>
+                  <div class="price ms-auto">
+                    <span class="lead">38.00$</span>
+                  </div>
+                </div>
+                <p class="text-muted"><hr></p>
+              </section>
+              <section class="p-4">
+                <div class="d-flex align-items-center">
+                  <img src="images/3.png" class="w-25" >
+                  <div class="item-texts ms-auto">
+                    <h3>Special Plant</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                    <a class="btn btn-outline-danger" href="#">Cancel</a>
+                  </div>
+                  <div class="col-2 quantity ms-auto">
+                    <p class=" text-center">Quantity:</p>
+                    <p class="lead border border-1 border-secondary text-center ">9</p>
+                  </div>
+                  <div class="price ms-auto">
+                    <span class="lead">38.00$</span>
+                  </div>
+                </div>
+                <p class="text-muted"><hr></p>
+              </section>
+              <section class="p-4">
+                <div class="d-flex align-items-center">
+                  <img src="images/1.png" class="w-25">
+                  <div class="item-texts ms-auto">
+                    <h3>Special Plant</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+                    <a class="btn btn-outline-danger" href="#">Cancel</a>
+                  </div>
+                  <div class="col-2 quantity ms-auto">
+                    <p class=" text-center">Quantity:</p>
+                    <p class="lead border border-1 border-secondary text-center">2</p>
+                  </div>
+                  <div class="price ms-auto">
+                    <span class="lead">38.00$</span>
+                  </div>
+                </div>
+                <p class="text-muted"><hr></p>
+              </section>
+              <button class="btn btn-danger m-5">Cancel All</button>
+            </div>
+          </section>
+        </div>
+        </div>
+      </div>
+    </article>
+    <!-- /Cart -->
+
+    <!-- footer -->
+    <footer class="my-5 py-5">
+        <p class="container text-muted text-start fs-6">Copyright © 2022 by omarcamirr@gmail.com</p>
+        <div class="container border-top border-1 border-secondary d-flex align-items-center justify-content-between">
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link link-secondary" aria-current="page" href="Home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-secondary" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-secondary" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link-secondary" href="#">Privacy policy</a>
+                </li>
+              </ul>
+            <div class="social">
+                <a href="#" class="link-secondary px-2"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="link-secondary px-2"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="link-secondary px-2"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- /footer -->
+
+
+
+
+
+
+
+
+    
+
+    <!-- Bootstrap JS file -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Main JS file -->
+    <script src="main.js"></script>
+</body>
+</html>
